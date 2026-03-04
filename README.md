@@ -1,1 +1,1 @@
-# person-detection-nmsai
+# Person-Detection-NMSAI

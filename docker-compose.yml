@@ -1,0 +1,7 @@
+services:
+  person-api:
+    build: .
+    container_name: person_detection-api
+    restart: always
+    ports:
+      - "8001:8000"
