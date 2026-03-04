@@ -183,7 +183,7 @@ def detect_person(data: VideoRequest):
     API endpoint:
     Accepts JSON body:
     {
-        "video_url": "http://example.com/video.mp4"
+        "video_url": "http://example.com/video.webm"
     }
 
     Returns detection status + best frames in base64 format.
