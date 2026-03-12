@@ -39,13 +39,13 @@ The system is deployed using Gunicorn with multiple Uvicorn workers for producti
 
 ![System Architecture](documentation/person-detection-nmsai-system-architecture.png "Person-Detection-NMSAI System Architecture")
 
+---
+
 ## Model Distribution
-
-
 
 The production model is distributed via GitHub Release.
 
-Version: `v1.0` \
+Version: `v1.0`  
 Model File: `person-x-150.pt`
 
 The application automatically downloads the model at startup if it is not present locally.
@@ -172,6 +172,7 @@ Person-Detection-NMSAI/
 ├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
+├── LICENSE
 └── README.md
 ```
 
@@ -214,21 +215,6 @@ http://localhost:8001
 
 ---
 
-## Production Considerations
-
-For real-world deployment:
-
-- Use Nginx or a reverse proxy in front of the container
-- Enable HTTPS (SSL/TLS)
-- Apply rate limiting if exposed publicly
-- Monitor CPU and memory usage
-- Scale horizontally using multiple containers
-- Consider GPU deployment for higher throughput
-- Externalize logging and monitoring
-- Adjust Gunicorn workers based on CPU cores
-
----
-
 ## Versioning
 
 ### v1.0
@@ -245,16 +231,25 @@ Initial production release including:
 
 ---
 
-### Future Versions May Include
-
-- Multi-frame decision logic
-- Asynchronous processing support
-- GPU optimization
-- Horizontal scaling enhancements
-- Advanced rate limiting and request throttling
-- Observability improvements (metrics & monitoring)
----
-
 ## License
 
-This project is proprietary and intended for controlled production deployment within NMSAI infrastructure.
+Copyright (c) 2026 Eldisja Hadasa
+
+All rights reserved.
+
+This software and associated documentation files (the "Software") are proprietary and confidential.
+
+No part of this Software may be copied, modified, distributed, sublicensed, or used for commercial purposes without explicit written permission from the copyright holder.
+
+Unauthorized use, reproduction, or distribution of this software is strictly prohibited.
+
+---
+
+## Maintainer
+
+**Eldisja Hadasa**
+
+The Enterprise Fleet Tracking IoT Platform implements a containerized IoT telemetry ingestion pipeline using MQTT, FastAPI, PostgreSQL, and Docker.
+
+- GitHub: https://github.com/eldisja1
+- LinkedIn: https://www.linkedin.com/in/eldisja-hadasa/
