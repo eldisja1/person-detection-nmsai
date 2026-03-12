@@ -1,6 +1,6 @@
 # Person-Detection-NMSAI
 
-Production-ready Person Detection API built with FastAPI and YOLO.  
+Person Detection API built with FastAPI and YOLO.  
 This service processes video streams, detects persons, and returns the top-N highest confidence frames in Base64 format.  
 Optimized for CPU efficiency and concurrent production workloads.
 
