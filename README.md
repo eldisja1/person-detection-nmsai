@@ -249,7 +249,8 @@ Unauthorized use, reproduction, or distribution of this software is strictly pro
 
 **Eldisja Hadasa**
 
-The Enterprise Fleet Tracking IoT Platform implements a containerized IoT telemetry ingestion pipeline using MQTT, FastAPI, PostgreSQL, and Docker.
+The **Person-Detection-NMSAI** project implements a containerized AI inference service for detecting persons in video streams using FastAPI and YOLO, designed for CPU-efficient concurrent deployment using Docker and Gunicorn workers.
+
 
 - GitHub: https://github.com/eldisja1
 - LinkedIn: https://www.linkedin.com/in/eldisja-hadasa/
