@@ -62,7 +62,7 @@ INTERVAL_SEC = 1.0
 MAX_SHOWN = 3
 MAX_VIDEO_SECONDS = 10
 MAX_FRAMES = 30
-MODEL_PATH = "person-x-150.pt"
+MODEL_PATH = "person-11m-150.pt"
 ```
 
 ### Configuration Description
