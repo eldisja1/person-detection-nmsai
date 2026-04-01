@@ -229,6 +229,14 @@ Initial production release including:
 - Top-N best frame selection by confidence
 - Dockerized deployment with Gunicorn + Uvicorn workers
 
+### v1.1.0
+Model upgrade release including:
+
+- Updated person detection model
+- Improved detection performance and model efficiency
+- Maintained compatibility with the existing inference pipeline
+- No changes to API behavior or deployment workflow
+
 ---
 
 ## License
