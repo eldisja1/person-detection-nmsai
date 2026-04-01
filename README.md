@@ -45,8 +45,8 @@ The system is deployed using Gunicorn with multiple Uvicorn workers for producti
 
 The production model is distributed via GitHub Release.
 
-Version: `v1.0`  
-Model File: `person-x-150.pt`
+Version: `v1.1.0`  
+Model File: `person-11m-150.pt`
 
 The application automatically downloads the model at startup if it is not present locally.
 
