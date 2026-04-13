@@ -16,7 +16,7 @@ MAX_VIDEO_SECONDS = 10      # Maximum processing duration (seconds)
 MAX_FRAMES = 30             # Maximum total frames processed (hard cap to protect CPU)
 
 MODEL_PATH = "person-11m-150.pt"
-MODEL_URL = "https://github.com/mirteldisa01/person-detection-nmsai/releases/download/v1.1.0/person-11m-150.pt"
+MODEL_URL = "https://github.com/eldisja1/person-detection-nmsai/releases/download/v1.1.0/person-11m-150.pt"
 
 app = FastAPI(
     title="Person Detection API",
