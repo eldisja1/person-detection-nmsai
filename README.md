@@ -253,7 +253,7 @@ Unauthorized use, reproduction, or distribution of this software is strictly pro
 
 ---
 
-## Maintainer
+## Developer
 
 **Eldisja Hadasa**
 
