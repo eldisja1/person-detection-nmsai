@@ -166,7 +166,7 @@ These protections prevent:
 ## Project Structure
 
 ```
-Person-Detection-NMSAI/
+person-detection-nmsai/
 │
 ├── app.py
 ├── requirements.txt
